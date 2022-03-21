@@ -1,4 +1,4 @@
-# GAS Clasp Scaffold
+# GAS Clasp Boilerplate
 Environment for Google App Script with Typescript, ESLint, Prettier and other npm packages
 
 ## Usage
