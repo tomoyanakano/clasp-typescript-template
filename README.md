@@ -1,4 +1,5 @@
-# GAS Clasp Boilerplate
+# Clasp Typescript Template
+
 Environment for Google App Script with Typescript, ESLint, Prettier and other npm packages
 
 ## Usage
@@ -20,19 +21,22 @@ change appscript.json you want
 - Time Zone（default: "Asia/Tokyo"）
 - OAuth
 
-### npm 
+### npm
 
 install packages
+
 ```
 npm install
 ```
 
 linter
+
 ```
 npm run lint
 ```
 
 deploy
+
 ```
 npm run deploy
 ```
