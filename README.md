@@ -6,9 +6,12 @@ Environment for Google App Script with Typescript, ESLint, Prettier and other np
 
 ### Clasp
 
-**.clasp.json**
+**.clasp.json.dev**
 
-add your scriptId to .clasp.json
+add your scriptId
+
+`.clasp.json.dev`: Dev env
+`.clasp.json.prod`: Prod env
 
 ```
 {"scriptId":" YOUR SCRIPT ID "}
@@ -38,5 +41,6 @@ npm run lint
 deploy
 
 ```
-npm run deploy
+npm run deploy:dev
+npm run deploy:prod
 ```
