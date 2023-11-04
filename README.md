@@ -10,8 +10,8 @@ Environment for Google App Script with Typescript, ESLint, Prettier and other np
 
 add your scriptId
 
-`.clasp.json.dev`: Dev env
-`.clasp.json.prod`: Prod env
+- **Dev Environment:** `.clasp.json.dev`
+- **Prod Environment:** `.clasp.json.prod`
 
 ```
 {"scriptId":" YOUR SCRIPT ID "}
