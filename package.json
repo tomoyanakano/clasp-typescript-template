@@ -22,7 +22,7 @@
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@types/google-apps-script": "^1.0.60",
     "@types/node": "^20.4.4",
-    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
     "cross-env": "^7.0.3",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^9.0.0",
