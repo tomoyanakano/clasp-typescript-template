@@ -19,7 +19,7 @@
     "@babel/preset-typescript": "^7.21.4",
     "@google/clasp": "^2.4.2",
     "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.1",
     "@types/google-apps-script": "^1.0.60",
     "@types/node": "^22.7.7",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
