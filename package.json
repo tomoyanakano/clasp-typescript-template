@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup --config",
-    "deploy:dev": "npm run build && cross-env clasp_config_project=.clasp.json.dev clasp push",
-    "deploy:prod": "npm run build && cross-env clasp_config_project=.clasp.json.prod clasp push",
+    "deploy:dev": "npm run build && clasp push --project .clasp.json.dev",
+    "deploy:prod": "npm run build && clasp push --project .clasp.json.prod",
     "lint": "eslint --fix --ext .ts,.js --ignore-path .gitignore ."
   },
   "type": "module",
