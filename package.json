@@ -7,7 +7,9 @@
     "build": "rollup --config",
     "deploy:dev": "npm run build && clasp push --project .clasp.json.dev",
     "deploy:prod": "npm run build && clasp push --project .clasp.json.prod",
-    "lint": "eslint 'src/**/*.ts'"
+    "lint": "eslint 'src/**/*.ts'",
+    "format": "prettier --write 'src/**/*.ts'",
+    "format:check": "prettier --check 'src/**/*.ts'"
   },
   "type": "module",
   "author": "",
